@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B02CA1EB2DC7DD23004E1AE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02CA1E82DC7DD23004E1AE9 /* ContentView.swift */; };
+		B02CA1EC2DC7DD23004E1AE9 /* GreenThumbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02CA1E92DC7DD23004E1AE9 /* GreenThumbApp.swift */; };
+		B02CA1ED2DC7DD23004E1AE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02CA1E52DC7DD23004E1AE9 /* Preview Assets.xcassets */; };
+		B02CA1EE2DC7DD23004E1AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02CA1E72DC7DD23004E1AE9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B02CA1D42DC7DD15004E1AE9 /* GreenThumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenThumb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02CA1E52DC7DD23004E1AE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B02CA1E72DC7DD23004E1AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02CA1E82DC7DD23004E1AE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B02CA1E92DC7DD23004E1AE9 /* GreenThumbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenThumbApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B02CA1D62DC7DD15004E1AE9 /* GreenThumb */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GreenThumb;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B02CA1D12DC7DD15004E1AE9 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		B02CA1CB2DC7DD15004E1AE9 = {
 			isa = PBXGroup;
 			children = (
-				B02CA1D62DC7DD15004E1AE9 /* GreenThumb */,
+				B02CA1EA2DC7DD23004E1AE9 /* GreenThumb */,
 				B02CA1D52DC7DD15004E1AE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				B02CA1D42DC7DD15004E1AE9 /* GreenThumb.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B02CA1E62DC7DD23004E1AE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B02CA1E52DC7DD23004E1AE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B02CA1EA2DC7DD23004E1AE9 /* GreenThumb */ = {
+			isa = PBXGroup;
+			children = (
+				B02CA1E92DC7DD23004E1AE9 /* GreenThumbApp.swift */,
+				B02CA1E82DC7DD23004E1AE9 /* ContentView.swift */,
+				B02CA1E62DC7DD23004E1AE9 /* Preview Content */,
+				B02CA1E72DC7DD23004E1AE9 /* Assets.xcassets */,
+			);
+			path = GreenThumb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B02CA1D62DC7DD15004E1AE9 /* GreenThumb */,
 			);
 			name = GreenThumb;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02CA1ED2DC7DD23004E1AE9 /* Preview Assets.xcassets in Resources */,
+				B02CA1EE2DC7DD23004E1AE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02CA1EB2DC7DD23004E1AE9 /* ContentView.swift in Sources */,
+				B02CA1EC2DC7DD23004E1AE9 /* GreenThumbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
